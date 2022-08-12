@@ -1,0 +1,192 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   }
+
+
+.contenedor{
+    background-color:rgb(184, 151, 215);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin: 5rem;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.imagenes{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.ooo{
+    height: 35px;
+    padding: 5rem;
+}
+
+.img{
+    height: 400px;
+    padding: 3rem;
+}
+
+p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+.aaaa{
+    background-color: #AA14F0;
+    height: 80px;
+}
+
+.eeee{
+    background-color: #AB46D2;
+    height: 80px;
+}
+
+.iiii{
+    background-color: #EEEEEE;
+    height: 80px;
+}
+
+.zapatos{
+    height: 30%;
+    width: 30%;
+    margin-top: 5rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+button:hover{
+    border: none;
+    color: rgb(80, 10, 112);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #2b0059;
+    transition-duration: 0.4s;
+}
+
+
+
+@media screen and (min-width: 230px) and (max-width:480px){
+
+    html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    
+    .contenedor{
+        background-color:rgb(0, 0, 0);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        margin: 1rem;
+        text-decoration: none;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5px;
+    }
+    
+    .imagenes{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .ooo{
+        height: 15px;
+        padding: 2rem;
+    }
+    
+    .img{
+        height: 170px;
+        padding: 3rem;
+    }
+    
+    p{
+        font-family: 'Amatic SC', cursive;
+        font-size: 10px;
+    }
+    
+    h2{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 10px;
+        color: #DFE8CC;
+    }
+
+    .aaaa{
+        background-color: #14021c;
+        height: 50px;
+    }
+    
+    .eeee{
+        background-color: #42005c;
+        height: 50px;
+    }
+    
+    .iiii{
+        background-color: #9d39e9;
+        height: 50px;
+    }
+    
+
+    body{
+        background-color: #DFE8CC;
+    }
+
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+    button:hover{
+        border: none;
+        color: rgb(15, 248, 31);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border: 2px solid #9dff00;
+        transition-duration: 0.4s;
+    }    
+
+}
